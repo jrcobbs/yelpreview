@@ -1,0 +1,15 @@
+{
+  "lockfileVersion": 1,
+  "name": "yelpreview",
+  "description": "This application utilizes the [yelp fusion API](https://www.yelp.com/developers/documentation/v3) to conveniently pull reviews from your preferred restaurant.",
+  "version": "1.0.0",
+  "main": "yelpreview.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonah Cobbs",
+  "license": "ISC",
+  "dependencies": {
+    "yelp-fusion": "^3.0.0"
+  }
+}
