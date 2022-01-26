@@ -54,3 +54,10 @@ example response
     }
 ]
 ```
+## Testing
+
+Be sure to download [the mocha framework](https://mochajs.org/) to run tests from `yelpreview-test.js`. If you want to run the tests, please replace `YOUR_API_KEY` in each test to the one you've created. Assuming you have it configured, you can run
+
+```bash
+npm test
+```

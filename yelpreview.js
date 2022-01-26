@@ -14,11 +14,11 @@ const server = http.createServer(function(req, res) {
   res.setHeader('Content-Type', 'text/json');
   const queryObject = url.parse(req.url, true).query;
     let params = queryObject;
-    getBusiness(Object.values(params)[0], Object.values(params)[1], res)
+    getBusiness(Object.values(params)[0], Object.values(params)[1], res);
 });
 
 server.listen(port, hostname, function() {
-  console.log("server started at " + hostname + "/" + port)
+  console.log("server started at " + hostname + "/" + port);
 });
 
 function getReviews(id) {
